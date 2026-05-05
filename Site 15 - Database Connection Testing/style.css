@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #1f2937;
+}
+
+header {
+  background: #0f4c81;
+  color: #ffffff;
+  padding: 20px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #d8e0ea;
+  border-radius: 6px;
+  padding: 12px;
+  background: #fafcfe;
+}
+
+.code-note {
+  padding: 12px;
+  border-left: 4px solid #0f4c81;
+  background: #eaf3ff;
+  margin: 12px 0;
+}
+
+.status-success {
+  background: #e6f6ec;
+  border: 1px solid #9bd7ad;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.status-error {
+  background: #fdeaea;
+  border: 1px solid #e0a4a4;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+a {
+  color: #0f4c81;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    margin: 10px;
+    padding: 14px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 14px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  header {
+    background: #ffffff;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .code-note,
+  .status-success,
+  .status-error {
+    border: 1px solid #000000;
+    background: #ffffff;
+  }
+
+  .no-print {
+    display: none;
+  }
+}
