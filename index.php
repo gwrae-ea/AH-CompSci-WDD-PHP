@@ -201,6 +201,15 @@
       <a href="Site 15 - Database Connection Testing/Task 15.md">View Task Sheet</a>
     </div>
 
+    <div class="lesson-card">
+      <h2>Site 16 - Select Query Employees</h2>
+      <p>Use a full-table SELECT query to pull every available row and column from the Employees table and display the results.</p>
+      <p><strong>Topics:</strong> SELECT *, Employees table, fetchAll(), HTML tables, empty states, query errors</p>
+      <a href="Site 16 - Select Query Employees/index.php">Go to Site 16</a>
+      <a href="Site 16 - Select Query Employees/explanation.php">📖 Explanation</a>
+      <a href="Site 16 - Select Query Employees/Task 16.md">View Task Sheet</a>
+    </div>
+
   </div>
 
   <div class="info-box">
