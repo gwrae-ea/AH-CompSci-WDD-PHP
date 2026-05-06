@@ -139,3 +139,6 @@ Then open the forwarded port URL in your browser to view your pages.
 - Site 16 task sheet: [Site 16 - Select Queries with Filters and Sorting/Task 16.md](Site%2016%20-%20Select%20Queries%20with%20Filters%20and%20Sorting/Task%2016.md)
 - Site 17 task sheet: [Site 17 - Form GET and Display/Task 17.md](Site%2017%20-%20Form%20GET%20and%20Display/Task%2017.md)
 - Site 18 task sheet: [Site 18 - Form POST and Display/Task 18.md](Site%2018%20-%20Form%20POST%20and%20Display/Task%2018.md)
+- Site 19 task sheet: [Site 19 - Insert Query with Forms/Task 19.md](Site%2019%20-%20Insert%20Query%20with%20Forms/Task%2019.md)
+- Site 20 task sheet: [Site 20 - Update Query with Forms/Task 20.md](Site%2020%20-%20Update%20Query%20with%20Forms/Task%2020.md)
+- Site 21 task sheet: [Site 21 - Delete Query with Forms/Task 21.md](Site%2021%20-%20Delete%20Query%20with%20Forms/Task%2021.md)

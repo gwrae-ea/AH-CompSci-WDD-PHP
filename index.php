@@ -228,6 +228,33 @@
       <a href="Site 18 - Form POST and Display/Task 18.md">View Task Sheet</a>
     </div>
 
+    <div class="lesson-card">
+      <h2>Site 19 - Insert Query with Forms</h2>
+      <p>Extend the Site 18 POST flow by inserting form data into the database with prepared statements. Demo uses Employees, pupil task uses Students.</p>
+      <p><strong>Topics:</strong> POST form processing, PDO prepared statements, INSERT queries, server-side validation, error handling, lastInsertId</p>
+      <a href="Site 19 - Insert Query with Forms/index.php">Go to Site 19</a>
+      <a href="Site 19 - Insert Query with Forms/explanation.php">📖 Explanation</a>
+      <a href="Site 19 - Insert Query with Forms/Task 19.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 20 - Update Query with Forms</h2>
+      <p>Continue from Site 19 by editing existing rows with UPDATE queries. Demo uses Employees, pupil task uses Students.</p>
+      <p><strong>Topics:</strong> POST form processing, PDO prepared statements, UPDATE queries, server-side validation, rowCount feedback</p>
+      <a href="Site 20 - Update Query with Forms/index.php">Go to Site 20</a>
+      <a href="Site 20 - Update Query with Forms/explanation.php">📖 Explanation</a>
+      <a href="Site 20 - Update Query with Forms/Task 20.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 21 - Delete Query with Forms</h2>
+      <p>Continue from Site 20 by removing rows with DELETE queries. Demo uses Employees, pupil task uses Students.</p>
+      <p><strong>Topics:</strong> POST form processing, PDO prepared statements, DELETE queries, WHERE safety, rowCount feedback</p>
+      <a href="Site 21 - Delete Query with Forms/index.php">Go to Site 21</a>
+      <a href="Site 21 - Delete Query with Forms/explanation.php">📖 Explanation</a>
+      <a href="Site 21 - Delete Query with Forms/Task 21.md">View Task Sheet</a>
+    </div>
+
   </div>
 
   <div class="info-box">
