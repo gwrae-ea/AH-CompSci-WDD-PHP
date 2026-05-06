@@ -6,21 +6,21 @@ require __DIR__ . '/../db.php';
 
 $errorMessage = '';
 $summary = array();
-$employees = array();
+$students = array();
 $columns = array();
 
 try {
     $pdo = getDatabaseConnection();
     $summary[] = 'PASS: Database connection opened.';
 
-    $statement = $pdo->query('SELECT * FROM Employees');
+    $statement = $pdo->query('SELECT * FROM Students');
     $summary[] = 'PASS: SELECT * query executed.';
 
-    $employees = $statement->fetchAll();
-    $summary[] = 'PASS: Retrieved ' . count($employees) . ' row(s) from Employees.';
+    $students = $statement->fetchAll();
+    $summary[] = 'PASS: Retrieved ' . count($students) . ' row(s) from Students.';
 
-    if ($employees !== array()) {
-        $columns = array_keys($employees[0]);
+    if ($students !== array()) {
+      $columns = array_keys($students[0]);
         $summary[] = 'PASS: Detected columns - ' . implode(', ', $columns);
     } else {
         $summary[] = 'INFO: No rows returned, so there are no headers to display yet.';
@@ -41,39 +41,43 @@ try {
 <body>
   <header>
     <h1>Your Task Workspace</h1>
-    <p>Run the base Employees query, then plan filtered versions using WHERE, ORDER BY, AND, OR, NOT, and LIKE.</p>
+    <p>Keep the demo on Employees, but complete your task using the Students table and student data.</p>
   </header>
 
   <main>
     <h2>Task Requirements</h2>
     <ol>
       <li>Connect to the database using the shared helper.</li>
-      <li>Run <code>SELECT * FROM Employees</code> first.</li>
+      <li>Run <code>SELECT * FROM Students</code> first.</li>
       <li>Write one follow-up task for each of <code>WHERE</code>, <code>ORDER BY</code>, <code>AND</code>, <code>OR</code>, <code>NOT</code>, and <code>LIKE</code>.</li>
       <li>Display the returned rows in a readable HTML table.</li>
       <li>Show a clear message when zero rows are returned or an error occurs.</li>
     </ol>
 
     <div class="code-note">
+      <strong>Important:</strong> The demonstration page still uses the <code>Employees</code> table. Your pupil task should use the <code>Students</code> table instead.
+    </div>
+
+    <div class="code-note">
       <strong>Specific query tasks</strong>
       <ol>
-        <li><strong>WHERE:</strong> Return employees from one department or office.</li>
-        <li><strong>ORDER BY:</strong> Sort employees by surname, hire date, salary, or employee ID.</li>
-        <li><strong>AND:</strong> Return employees who match two conditions together.</li>
-        <li><strong>OR:</strong> Return employees who match either of two departments, roles, or locations.</li>
-        <li><strong>NOT:</strong> Exclude one status, role, or department from the results.</li>
-        <li><strong>LIKE:</strong> Search for names that begin with or contain a chosen text pattern.</li>
+        <li><strong>WHERE:</strong> Return students from one grade level or one enrollment status.</li>
+        <li><strong>ORDER BY:</strong> Sort students by surname, grade level, or enrollment date.</li>
+        <li><strong>AND:</strong> Return students who match two conditions together.</li>
+        <li><strong>OR:</strong> Return students who match either of two grade levels or statuses.</li>
+        <li><strong>NOT:</strong> Exclude one grade level, gender, or status from the results.</li>
+        <li><strong>LIKE:</strong> Search for student names that begin with or contain a chosen text pattern.</li>
       </ol>
     </div>
 
     <div class="code-note">
       <strong>Starter examples</strong>
-      <pre>SELECT * FROM Employees WHERE department = 'Sales';
-SELECT * FROM Employees ORDER BY last_name ASC;
-SELECT * FROM Employees WHERE department = 'Sales' AND status = 'Active';
-SELECT * FROM Employees WHERE department = 'Sales' OR department = 'Marketing';
-SELECT * FROM Employees WHERE NOT status = 'Inactive';
-SELECT * FROM Employees WHERE last_name LIKE 'Sm%';</pre>
+      <pre>SELECT * FROM Students WHERE grade_level = 8;
+SELECT * FROM Students ORDER BY last_name ASC;
+SELECT * FROM Students WHERE grade_level = 8 AND enrollment_status = 'Active';
+SELECT * FROM Students WHERE grade_level = 8 OR grade_level = 9;
+SELECT * FROM Students WHERE NOT grade_level = 12;
+SELECT * FROM Students WHERE last_name LIKE 'M%';</pre>
     </div>
 
     <?php if ($errorMessage === ''): ?>
@@ -91,7 +95,7 @@ SELECT * FROM Employees WHERE last_name LIKE 'Sm%';</pre>
       </ul>
     </div>
 
-    <?php if ($errorMessage === '' && $employees !== array()): ?>
+    <?php if ($errorMessage === '' && $students !== array()): ?>
       <div class="table-wrap">
         <table>
           <thead>
@@ -102,10 +106,10 @@ SELECT * FROM Employees WHERE last_name LIKE 'Sm%';</pre>
             </tr>
           </thead>
           <tbody>
-            <?php foreach ($employees as $employee): ?>
+            <?php foreach ($students as $student): ?>
               <tr>
                 <?php foreach ($columns as $column): ?>
-                  <td><?php echo htmlspecialchars((string) ($employee[$column] ?? '')); ?></td>
+                  <td><?php echo htmlspecialchars((string) ($student[$column] ?? '')); ?></td>
                 <?php endforeach; ?>
               </tr>
             <?php endforeach; ?>

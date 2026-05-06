@@ -55,17 +55,14 @@ do {
 
 ### Pseudocode Example
 
-```
-SET numberOfValues to required amount
-SET timesTable to required table
-SET counter to 1
-
-DO
-  result = counter * timesTable
-  DISPLAY counter + " x " + timesTable + " = " + result
-  counter = counter + 1
-WHILE counter is less than or equal to numberOfValues
-```
+1. Set the number of values to the required count.
+2. Set the times table number to the chosen value.
+3. Set the counter to 1.
+4. Carry out steps 5 to 7 at least once, then repeat while the counter is less than or equal to the number of values.
+5. Multiply the counter by the times table number to get the result.
+6. Display the counter, the times table number, and the result.
+7. Increase the counter by 1.
+8. End the loop once the counter exceeds the number of values.
 
 ## Implementation
 
@@ -107,7 +104,7 @@ Press **Ctrl+C** in the terminal running the PHP server.
 | FR5 | (N/A)                             | N/A                                                           | N/A                    |
 | FR6 | (N/A)                             | N/A                                                           | N/A                    |
 | FR7 | (N/A)                             | N/A                                                           | N/A                    |
-| FR8 | Demonstrate do...while example    | Visit increment_example.php and verify final value of `i`     | Output is correct      |
+| FR8 | Demonstrate do...while example    | Visit increment_example.php and verify final value of i     | Output is correct      |
 | FR9 | Counting do...while loop          | Visit yourtask.php and verify counter increments to your limit | Output is correct |
 | FR10| Counter variable works correctly   | Verify the counter increments by 1 each pass and loop runs correct times | Output is correct |
 

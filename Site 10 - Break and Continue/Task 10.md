@@ -49,24 +49,17 @@ These keywords are useful when you want more control over how a loop behaves.
 
 ### Pseudocode Example
 
-```
-SET counter to 0
-
-WHILE counter is less than 10
-  counter = counter + 1
-  IF counter equals 5
-    BREAK
-  END IF
-  DISPLAY counter
-END WHILE
-
-FOR EACH value IN values
-  IF value equals 4
-    CONTINUE
-  END IF
-  DISPLAY value
-END FOR EACH
-```
+1. Set the counter to zero.
+2. While the counter is less than 10, repeat steps 3 to 6.
+3. Increase the counter by 1.
+4. Check if the counter equals 5.
+5. If it does, stop the loop immediately without displaying anything further.
+6. Otherwise, display the current counter value.
+7. Store a list of values.
+8. For each value in the list, carry out steps 9 and 10.
+9. Check if the current value equals 4.
+10. If it does, skip displaying this value and move on to the next one.
+11. Otherwise, display the current value.
 
 ## Implementation
 

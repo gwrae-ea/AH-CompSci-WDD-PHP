@@ -50,20 +50,12 @@ Multidimensional arrays use multiple indexes to access values. For example, in a
 
 ### Pseudocode Example
 
-```
-CREATE 2D array with departments as main keys
-  SET departments['engineering'] to array of employee names and salaries
-  SET departments['sales'] to array of employee names and salaries
-  SET departments['operations'] to array of employee names and salaries
-
-FOR EACH department => staff IN departments
-  FOR EACH employee => salary IN staff
-    DISPLAY employee and salary
-  END FOR EACH
-END FOR EACH
-
-DISPLAY specific nested value using array['key1']['key2']
-```
+1. Create a two-dimensional array using department names as the outer keys.
+2. Under each department key, store an inner array mapping employee names to their salary values.
+3. For each department in the outer array, carry out steps 4 and 5.
+4. For each employee name and salary in that department's inner array, display the name and salary together.
+5. Move on to the next department and repeat until all departments have been displayed.
+6. Display one specific salary value by referencing both the department key and the employee name key.
 
 ## Implementation
 

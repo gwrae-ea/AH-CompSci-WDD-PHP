@@ -55,22 +55,14 @@ foreach ($array as $value) {
 
 ### Pseudocode Example
 
-```
-SET names to an array of strings
-SET targetName to the name to search for
-SET nameFound to false
-
-FOR EACH name IN names
-  IF name equals targetName
-    DISPLAY suitable message
-    SET nameFound to true
-  END IF
-END FOR EACH
-
-IF nameFound is false
-  DISPLAY name not found message
-END IF
-```
+1. Store a list of names.
+2. Set the target name to the name being searched for.
+3. Set a found flag to false before starting the search.
+4. For each name in the list, carry out steps 5 and 6.
+5. Check if the current name matches the target name.
+6. If it matches, display a suitable found message and set the found flag to true.
+7. After all names have been checked, test whether the found flag is still false.
+8. If it is still false, display a name not found message.
 
 ## Implementation
 

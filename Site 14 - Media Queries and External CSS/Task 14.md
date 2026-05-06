@@ -22,10 +22,10 @@ No other media query conditions are required for this site.
 | FR  | Requirement | Status |
 |-----|-------------|--------|
 | FR1 | External CSS file linked on all Site 14 pages | Required |
-| FR2 | `@media screen and (max-width: 900px)` rule used | Required |
-| FR3 | `@media screen and (max-width: 600px)` rule used | Required |
-| FR4 | `@media print` rule used | Required |
-| FR5 | `.no-print` content hidden in print view | Required |
+| FR2 | Media query for screen with max-width 900px rule used | Required |
+| FR3 | Media query for screen with max-width 600px rule used | Required |
+| FR4 | Media query for print rule used | Required |
+| FR5 | Content marked no-print hidden in print view | Required |
 
 ## Design Notation for Media Query Application
 

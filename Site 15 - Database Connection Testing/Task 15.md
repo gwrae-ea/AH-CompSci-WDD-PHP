@@ -1,31 +1,92 @@
 # Task 15: Database Connection Testing
 
-## Technical Focus
+## Technical Explanation
 
-This site focuses on testing PHP database connectivity using the `db_test.php` pattern:
+This site focuses on testing PHP database connectivity using the `db_test.php` pattern.
 
 1. Open a PDO connection with `getDatabaseConnection()`
 2. Execute a simple query (`SELECT VERSION()`)
 3. Capture success or failure with clear output
+4. Display results in a formatted output page with error handling
 
-## End User Requirements
+---
 
-1. User can run a database connection test page.
-2. User can see success output when credentials are correct.
-3. User can see meaningful error output when connection fails.
-4. User can provide testing evidence for pass/fail outcomes.
+## Analysis
 
-## Functional Requirements
+### End User Requirements
+
+1. Users can run a database connection test page to verify credentials.
+2. Users can see success output when database credentials are correct.
+3. Users can see meaningful error messages when the connection fails.
+4. Users can understand the try/catch pattern for error handling in PHP.
+
+### Functional Requirements
+
+#### Advanced Higher concepts
+
+The solution is required to:
 
 | FR  | Requirement | Status |
 |-----|-------------|--------|
-| FR1 | Reuse connection helper from root `db.php` | Required |
-| FR2 | Implement try/catch connection test flow | Required |
-| FR3 | Execute `SELECT VERSION()` query | Required |
-| FR4 | Show success and error status output | Required |
-| FR5 | Maintain Site 14 styling via external CSS | Required |
+| FR1 | Multi-page form with navigation | Not required |
+| FR2 | CSS media queries with screen max-width 900px and max-width 600px triggers | Required |
+| FR3 | PHP form processing (POST/GET) | Not required |
+| FR4 | Session variables and management | Not required |
 
-## Pseudocode Design
+#### Integration
+
+The solution is required to:
+
+| FR  | Requirement | Status |
+|-----|-------------|--------|
+| FR5 | Reuse database connection helper from root db.php file | Required |
+| FR6 | Execute database queries using PDO with try/catch error handling | Required |
+| FR7 | Display formatted query results with success/error state output | Required |
+
+#### Additional functional requirements
+
+The solution is required to:
+
+| FR  | Requirement | Status |
+|-----|-------------|--------|
+| FR8 | Execute SELECT VERSION() query to test database connectivity | Required |
+| FR9 | Query the database name to verify connection scope | Required |
+| FR10 | Validate server-side errors and display meaningful error messages | Required |
+| FR11 | Maintain Site 14 styling approach via external CSS file | Required |
+
+## Design
+
+### Key Learning Points
+
+1. PDO connections are reusable across page loads via a helper function
+2. Try/catch blocks provide graceful error handling for database operations
+3. Query results can be validated and displayed with clear status messages
+4. Database version and metadata queries help verify connection health
+5. Responsive design adapts layouts at key breakpoints: `max-width: 900px` (tablet) and `max-width: 600px` (mobile)
+6. External CSS styling maintains visual consistency across lesson sites
+
+### Demonstration Pages
+
+- `connection_demo.php` - shows successful connection and query execution
+- `yourtask.php` - practice workspace for testing database connectivity
+
+### Pseudocode Example
+
+1. Load the shared database connection helper so that the connection function is available.
+2. Prepare an overall status flag set to unknown and an empty list to collect individual test results.
+3. Attempt to open a connection to the database.
+4. If the connection succeeds, record it as a pass in the results list.
+5. Ask the database for its version number and record whether a valid answer was returned.
+6. Ask the database for its own name and record the result.
+7. If all three checks returned answers, set the overall status to pass.
+8. If any check failed, set the overall status to fail.
+9. If anything went wrong at any point, catch the error, record it as a fail, and set the overall status to fail.
+10. Display a green banner if the overall status is pass, or a red banner if it is fail.
+11. Display each individual test result so the user can see exactly which checks passed and which did not.
+
+## Implementation
+
+### Pseudocode Design
 
 ### Detailed Design
 
@@ -63,21 +124,24 @@ Once all the checks are finished, the page displays a summary banner — green f
 | DB-3 | Force an invalid DB setting | Error message shown from catch block |
 | DB-4 | Compare output to expected | Expected and actual match |
 
-## Evidence Checklist
+## Server Run Command
 
-1. Screenshot of successful connection output
-2. Screenshot of MySQL version output
-3. Screenshot of failed connection output (intentional failure test)
-4. Brief note explaining how the failure was fixed
-
-## Run Command
+From the project root directory, run:
 
 ```bash
 /usr/bin/php -S 0.0.0.0:8000 -t "Site 15 - Database Connection Testing"
 ```
 
-Then open:
+Then open your browser to:
 
 - `http://localhost:8000/index.php`
 - `http://localhost:8000/connection_demo.php`
 - `http://localhost:8000/yourtask.php`
+
+### Server Stop Command
+
+Press **Ctrl+C** in the terminal running the PHP server.
+
+### Server Stop Command
+
+Press **Ctrl+C** in the terminal running the PHP server.

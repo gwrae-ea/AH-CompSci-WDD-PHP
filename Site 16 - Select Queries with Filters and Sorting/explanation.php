@@ -8,12 +8,17 @@
 </head>
 <body>
   <header>
-    <h1>Explanation: Filtering and Sorting Employee Queries</h1>
+    <h1>Explanation: Filtering and Sorting SELECT Queries</h1>
   </header>
 
   <main>
     <h2>Lesson Focus</h2>
-    <p>Use a shared PDO connection to run <code>SELECT</code> queries against the <code>Employees</code> table, then narrow or reorder the results with SQL conditions.</p>
+    <p>Use a shared PDO connection to run <code>SELECT</code> queries, first through an Employees demo and then through a Students-based pupil task that applies the same SQL conditions.</p>
+
+    <div class="code-note">
+      <strong>Lesson structure:</strong>
+      <p>The demonstration page uses the <code>Employees</code> table, while the pupil task is designed around the <code>Students</code> table.</p>
+    </div>
 
     <div class="code-note">
       <strong>Core query pattern:</strong>

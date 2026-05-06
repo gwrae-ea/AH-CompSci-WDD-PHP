@@ -136,4 +136,6 @@ Then open the forwarded port URL in your browser to view your pages.
 - Site 13 task sheet: [Site 13 - Multidimensional Arrays/Task 13.md](Site%2013%20-%20Multidimensional%20Arrays/Task%2013.md)
 - Site 14 task sheet: [Site 14 - Media Queries and External CSS/Task 14.md](Site%2014%20-%20Media%20Queries%20and%20External%20CSS/Task%2014.md)
 - Site 15 task sheet: [Site 15 - Database Connection Testing/Task 15.md](Site%2015%20-%20Database%20Connection%20Testing/Task%2015.md)
-- Site 16 task sheet: [Site 16 - Select Query Employees/Task 16.md](Site%2016%20-%20Select%20Query%20Employees/Task%2016.md)
+- Site 16 task sheet: [Site 16 - Select Queries with Filters and Sorting/Task 16.md](Site%2016%20-%20Select%20Queries%20with%20Filters%20and%20Sorting/Task%2016.md)
+- Site 17 task sheet: [Site 17 - Form GET and Display/Task 17.md](Site%2017%20-%20Form%20GET%20and%20Display/Task%2017.md)
+- Site 18 task sheet: [Site 18 - Form POST and Display/Task 18.md](Site%2018%20-%20Form%20POST%20and%20Display/Task%2018.md)

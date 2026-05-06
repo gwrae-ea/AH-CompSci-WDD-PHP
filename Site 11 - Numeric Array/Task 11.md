@@ -50,21 +50,14 @@ This lesson focuses on creating a one-dimensional array of integers, finding the
 
 ### Pseudocode Example
 
-```
-SET numbers to an array of 10 integers
-SET total to 0
-
-FOR EACH value IN numbers
-  total = total + value
-END FOR EACH
-
-SET average to total / number of elements
-DISPLAY total
-DISPLAY average
-
-SET numbers[13] to 99
-DISPLAY the indexes and values in the array
-```
+1. Store a list of ten whole numbers.
+2. Set the running total to zero.
+3. For each value in the list, add it to the running total.
+4. Divide the total by the number of items in the list to calculate the average.
+5. Display the total.
+6. Display the average.
+7. Change the value stored at position 13 in the list to 99.
+8. Display all positions and their values in the updated list.
 
 ## Implementation
 

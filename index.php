@@ -202,12 +202,30 @@
     </div>
 
     <div class="lesson-card">
-      <h2>Site 16 - Select Query Employees</h2>
-      <p>Use a full-table SELECT query to pull every available row and column from the Employees table and display the results.</p>
-      <p><strong>Topics:</strong> SELECT *, Employees table, fetchAll(), HTML tables, empty states, query errors</p>
-      <a href="Site 16 - Select Query Employees/index.php">Go to Site 16</a>
-      <a href="Site 16 - Select Query Employees/explanation.php">📖 Explanation</a>
-      <a href="Site 16 - Select Query Employees/Task 16.md">View Task Sheet</a>
+      <h2>Site 16 - Select Queries with Filters and Sorting</h2>
+      <p>Learn SELECT filtering and sorting with an Employees demo page and a Students-based pupil task.</p>
+      <p><strong>Topics:</strong> SELECT *, WHERE, ORDER BY, AND, OR, NOT, LIKE, fetchAll(), HTML tables, empty states, query errors</p>
+      <a href="Site 16 - Select Queries with Filters and Sorting/index.php">Go to Site 16</a>
+      <a href="Site 16 - Select Queries with Filters and Sorting/explanation.php">📖 Explanation</a>
+      <a href="Site 16 - Select Queries with Filters and Sorting/Task 16.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 17 - Form GET and Display</h2>
+      <p>Build a two-page form flow where page 1 collects user input, page 2 receives it via GET, stores it in PHP variables, and processes it with string functions.</p>
+      <p><strong>Topics:</strong> HTML forms, GET method, $_GET superglobal, concatenation, string functions (strtoupper, strtolower, strlen), htmlspecialchars</p>
+      <a href="Site 17 - Form GET and Display/index.php">Go to Site 17</a>
+      <a href="Site 17 - Form GET and Display/explanation.php">📖 Explanation</a>
+      <a href="Site 17 - Form GET and Display/Task 17.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 18 - Form POST and Display</h2>
+      <p>Build a two-page form flow where page 1 collects user input, page 2 receives it via POST, stores it in PHP variables, and processes it with string functions.</p>
+      <p><strong>Topics:</strong> HTML forms, POST method, $_POST superglobal, concatenation, string functions (strtoupper, strtolower, strlen), htmlspecialchars</p>
+      <a href="Site 18 - Form POST and Display/index.php">Go to Site 18</a>
+      <a href="Site 18 - Form POST and Display/explanation.php">📖 Explanation</a>
+      <a href="Site 18 - Form POST and Display/Task 18.md">View Task Sheet</a>
     </div>
 
   </div>

@@ -64,16 +64,12 @@ These operators form the foundation of conditional logic in PHP (if statements, 
 
 ### Pseudocode Example
 
-```
-CREATE two variables: age and income
-IF age >= 18 AND income >= 40000 THEN
-  DISPLAY "Loan approved"
-ELSE IF age >= 18 OR income >= 50000 THEN
-  DISPLAY "Consider for review"
-ELSE
-  DISPLAY "Loan denied"
-END IF
-```
+1. Store two pieces of information: the person's age and their annual income.
+2. Check if both the age is at least 18 and the income is at least 40000.
+3. If both conditions are true, display a loan approved message.
+4. Otherwise, check if either the age is at least 18 or the income is at least 50000.
+5. If either condition is true, display a consider for review message.
+6. If neither condition is true, display a loan denied message.
 
 ## Implementation
 

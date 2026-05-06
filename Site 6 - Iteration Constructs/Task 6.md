@@ -37,7 +37,7 @@ For this lesson, the main task is a fixed iteration problem, so the `for` loop i
 | FR6 | Database connection and credentials             | N/A           |
 | FR7 | Database query interface (select/insert/update) | N/A           |
 | FR8 | Demonstrate all four loop types                 | Required      |
-| FR9 | Demonstrate `break` and `continue`              | Required      |
+| FR9 | Demonstrate break and continue keywords         | Required      |
 | FR10| Write a custom for loop for any times table    | Required      |
 
 ## Design
@@ -61,12 +61,12 @@ For this lesson, the main task is a fixed iteration problem, so the `for` loop i
 
 ### Pseudocode Example
 
-```
-FOR counter FROM 1 TO 20
-  result = counter * 5
-  DISPLAY counter + " x 5 = " + result
-END FOR
-```
+1. Set the counter to 1.
+2. While the counter is less than or equal to 20, repeat steps 3 to 5.
+3. Multiply the counter by 5 to get the result.
+4. Display the counter, the multiplication sign, 5, the equals sign, and the result.
+5. Increase the counter by 1.
+6. End the loop once the counter exceeds 20.
 
 ## Implementation
 
@@ -114,7 +114,7 @@ Press **Ctrl+C** in the terminal running the PHP server.
 | FR6 | (N/A)                             | N/A                                                           | N/A                 |
 | FR7 | (N/A)                             | N/A                                                           | N/A                 |
 | FR8 | Demonstrate all four loop types   | Visit each demo page and verify the correct loop behaviour    | All outputs correct |
-| FR9 | Demonstrate `break` and `continue`| Visit break_continue.php and verify both behaviours           | Output matches rules|
+| FR9 | Demonstrate break and continue| Visit break_continue.php and verify both behaviours           | Output matches rules|
 | FR10| Write custom for loop             | Visit yourtask.php and verify a times table for chosen table and range | Output is correct   |
 
 ## Evidence

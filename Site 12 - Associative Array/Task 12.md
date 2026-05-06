@@ -50,17 +50,11 @@ For example, instead of using a numeric index, you can use an employee's name as
 
 ### Pseudocode Example
 
-```
-CREATE associative array with meaningful string keys
-SET array["key1"] to value1
-SET array["key2"] to value2
-
-FOR EACH key => value IN array
-  DISPLAY key and value
-END FOR EACH
-
-DISPLAY specific value using array["key"]
-```
+1. Create an associative array using meaningful text labels as keys.
+2. Assign a value to the first key.
+3. Assign a value to the second key, and continue for all remaining keys.
+4. For each key and value pair in the array, display the key alongside its value.
+5. Display one specific value by referencing its key directly.
 
 ## Implementation
 
