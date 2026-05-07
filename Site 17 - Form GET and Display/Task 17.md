@@ -31,7 +31,7 @@ The solution is required to:
 
 | FR  | Requirement | Status |
 |-----|-------------|--------|
-| FR1 | Multi-page form with navigation | Required |
+| FR1 | Multi-page form with explicit form `action`, `method`, and named inputs (`name` attributes) | Required |
 | FR2 | CSS media queries with screen max-width 900px and max-width 600px triggers | Required |
 | FR3 | PHP form processing (GET method with query string) | Required |
 | FR4 | Session variables and management | Not required |
@@ -102,6 +102,13 @@ Page 2 — form_output.php:
 15. Display full_name_upper, full_name_lower, and char_count as the processed results.
 
 ## Implementation
+
+### Pupil Task Files
+
+Your task requires two files.
+
+- **`yourtask_form.php`** — create this file yourself. It is the form page (page 1) that collects user input and submits it with `method="GET"` to `yourtask.php`.
+- **`yourtask.php`** — already provided. It is the processing page (page 2) that reads `$_GET` values, validates them, and displays the results.
 
 ### Implementation Notes
 

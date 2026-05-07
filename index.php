@@ -255,6 +255,23 @@
       <a href="Site 21 - Delete Query with Forms/Task 21.md">View Task Sheet</a>
     </div>
 
+    <div class="lesson-card">
+      <h2>Site 22 - Session Variables</h2>
+      <p>Learn how to keep values across multiple pages using session storage on the server.</p>
+      <p><strong>Topics:</strong> session_start, $_SESSION, session_destroy, multi-page state, secure output</p>
+      <a href="Site 22 - Session Variables/index.php">Go to Site 22</a>
+      <a href="Site 22 - Session Variables/explanation.php">📖 Explanation</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 23 - Capstone Demo</h2>
+      <p>A complete mini-site that combines form handling, POST processing, validation, sessions, arrays, loops, and responsive CSS.</p>
+      <p><strong>Topics:</strong> end-to-end workflow, server-side validation, session dashboards, media queries, full commentary</p>
+      <a href="Site 23 - Capstone Demo/index.php">Go to Site 23</a>
+      <a href="Site 23 - Capstone Demo/explanation.php">📖 Explanation</a>
+      <a href="Site 23 - Capstone Demo/Task 23.md">View Task Sheet</a>
+    </div>
+
   </div>
 
   <div class="info-box">

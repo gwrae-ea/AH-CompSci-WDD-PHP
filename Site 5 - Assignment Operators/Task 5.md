@@ -62,12 +62,19 @@ These operators are shortcuts; for example, `$x += 5` is equivalent to `$x = $x 
 
 ### Pseudocode Example
 
-1. Set the running total to zero.
-2. Store three item prices in a list.
-3. For each item in the list, add its price to the running total.
-4. Subtract the discount amount from the total.
-5. Multiply the total by the tax rate to include tax.
-6. Display the final total.
+```
+CREATE variable: total = 0
+CREATE variable: items = [12.99, 8.50, 5.75]
+
+FOR each item in items
+  ADD item to total (total += item)
+END FOR
+
+APPLY discount (total -= 3.00)
+APPLY tax (total *= 1.08)
+
+DISPLAY total
+```
 
 ## Implementation
 
