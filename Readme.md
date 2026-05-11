@@ -30,6 +30,8 @@ From the project root:
 ./scripts/setup_env.sh
 ```
 
+This installs the PHP and MySQL support packages needed for the course environment.
+
 ## 5. Verify PHP and MySQL modules
 
 ```bash

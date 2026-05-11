@@ -88,15 +88,7 @@ vendor/
 
 This keeps secrets and downloaded dependencies out of git.
 
-## 8. Add PHP dependencies (if your class uses Composer)
-
-If your project includes `composer.json`, run:
-
-```bash
-composer install
-```
-
-## 9. Test your setup
+## 8. Test your setup
 
 This repository includes `db.php` and `db_test.php` as a starter connection example.
 
@@ -108,7 +100,7 @@ Run:
 
 If setup is correct, you should see a successful connection message and the MySQL server version.
 
-## 10. Run your PHP pages locally in Codespaces
+## 9. Run your PHP pages locally in Codespaces
 
 From the project root, start PHP's built-in web server:
 
