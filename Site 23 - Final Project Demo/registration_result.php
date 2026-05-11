@@ -226,7 +226,7 @@ function e(string $text): string
 </head>
 <body>
   <header>
-    <h1>Capstone Demo - Processed Result</h1>
+    <h1>Final Project Demo - Processed Result</h1>
     <p>Step 2: POST data validated, processed, and stored in session history.</p>
   </header>
 

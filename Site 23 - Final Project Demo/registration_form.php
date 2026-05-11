@@ -31,7 +31,7 @@ function checked(array $values, string $target): string
 </head>
 <body>
   <header>
-    <h1>Capstone Demo - Registration Form</h1>
+    <h1>Final Project Demo - Registration Form</h1>
     <p>Step 1: Submit this form with POST. The next page validates and processes your input.</p>
   </header>
 

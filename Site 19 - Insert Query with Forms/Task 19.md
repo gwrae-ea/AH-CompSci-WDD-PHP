@@ -165,3 +165,43 @@ Then open your browser to:
 ### Server Stop Command
 
 Press **Ctrl+C** in the terminal running the PHP server.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | a website with multiple pages, one of which has form elements (action, method, and name) to capture insert values |
+| FR2 | N/A |
+| FR3 | use PHP to assign form variables and process form data to insert a new record |
+| FR4 | N/A |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | have a database table to store inserted employee or student records |
+| FR6 | connect to the database to execute an INSERT query from validated form input |
+| FR7 | generate an interface to receive query input values and display formatted insert result output |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | validate required keyboard text inputs before database insert |
+| FR9 | validate keyboard numeric/date/email fields for type and range before insert |
+| FR10 | display success/failure status for insert operations |
+| FR11 | preserve and repopulate submitted values when validation fails |
+
+<!-- FR_STANDARD_END -->

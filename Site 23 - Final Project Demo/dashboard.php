@@ -60,7 +60,7 @@ function esc(string $text): string
 </head>
 <body>
   <header>
-    <h1>Capstone Dashboard</h1>
+    <h1>Final Project Dashboard</h1>
     <p>Step 3: Session-based history and summary analytics from submitted POST forms.</p>
   </header>
 

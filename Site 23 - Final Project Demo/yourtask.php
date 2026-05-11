@@ -12,11 +12,11 @@ declare(strict_types=1);
 </head>
 <body>
   <header>
-    <h1>Your Task - Site 23 Capstone Workspace</h1>
+    <h1>Your Task - Site 23 Final Project Workspace</h1>
   </header>
 
   <main>
-    <p>Use this page as your own capstone extension. Start from the working demo and add your own feature set.</p>
+    <p>Use this page as your own final project extension. Start from the working demo and add your own feature set.</p>
 
     <h2>Task Brief</h2>
     <div class="card">

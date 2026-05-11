@@ -255,10 +255,36 @@
       <a href="Site 21 - Delete Query with Forms/Task 21.md">View Task Sheet</a>
     </div>
 
+    <div class="lesson-card">
+      <h2>Site 22 - Session Variables</h2>
+      <p>Learn how PHP sessions store data across pages without relying on query strings or form reposts.</p>
+      <p><strong>Topics:</strong> session_start(), $_SESSION, session_destroy(), cross-page persistence, secure state handling</p>
+      <a href="Site 22 - Session Variables/index.php">Go to Site 22</a>
+      <a href="Site 22 - Session Variables/explanation.php">📖 Explanation</a>
+      <a href="Site 22 - Session Variables/Task 22.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 23 - Final Project Demo</h2>
+      <p>Bring together Sites 1-22 in a full mini-project with form flow, validation, session history, and responsive output.</p>
+      <p><strong>Topics:</strong> integrated workflow, POST validation, session analytics, arrays, loops, responsive/print CSS</p>
+      <a href="Site 23 - Final Project Demo/index.php">Go to Site 23</a>
+      <a href="Site 23 - Final Project Demo/explanation.php">📖 Explanation</a>
+      <a href="Site 23 - Final Project Demo/Task 23.md">View Task Sheet</a>
+    </div>
+
+    <div class="lesson-card">
+      <h2>Site 24 - Final Project Workspace</h2>
+      <p>A pupil-owned build space for your own final project implementation.</p>
+      <p><strong>Topics:</strong> project planning, independent build, testing, refinement, evidence capture</p>
+      <a href="Site 24 - Final Project Workspace/index.php">Go to Site 24</a>
+      <a href="Site 24 - Final Project Workspace/workspace.php">Open Workspace</a>
+    </div>
+
   </div>
 
   <div class="info-box">
-    <p><strong>Quick Start:</strong> To run any lesson site locally, use the command in the lesson's Task sheet. For example:</p>
+    <p><strong>Quick Start:</strong> To run any lesson site locally, use the command in the lesson's Task sheet (or site instructions for workspace-only sites). For example:</p>
     <code>/usr/bin/php -S 0.0.0.0:8000 -t "Site 1 - Hello World"</code>
   </div>
 </body>

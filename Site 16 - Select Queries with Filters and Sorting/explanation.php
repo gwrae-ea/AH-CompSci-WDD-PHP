@@ -103,6 +103,52 @@ SELECT * FROM Employees WHERE last_name LIKE 'Sm%';</pre>
 
     <p><a href="index.php">Back to Site 16 index</a></p>
     <p class="no-print"><a href="../index.php">Back to main hub</a></p>
+
   </main>
+    <!-- FR_STANDARD_START -->
+    <section>
+      <h2>Functional Requirements (Standard Format)</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR1</td><td>N/A</td></tr>
+          <tr><td>FR2</td><td>N/A</td></tr>
+          <tr><td>FR3</td><td>N/A</td></tr>
+          <tr><td>FR4</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Integration</h2>
+      <p>Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.</p>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR5</td><td>have a database table to store employee or student records used by SELECT queries</td></tr>
+          <tr><td>FR6</td><td>connect to the database to execute filtered and sorted SELECT queries</td></tr>
+          <tr><td>FR7</td><td>generate an interface to receive query filter values and display formatted table output</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Additional Functional Requirements</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR8</td><td>validate text filter keyboard input to allow safe characters only</td></tr>
+          <tr><td>FR9</td><td>validate sort/filter keyboard input against allowed options before query execution</td></tr>
+          <tr><td>FR10</td><td>display a formatted empty-state message when no matching rows are returned</td></tr>
+          <tr><td>FR11</td><td>show clear query error feedback without exposing sensitive database details</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- FR_STANDARD_END -->
 </body>
 </html>

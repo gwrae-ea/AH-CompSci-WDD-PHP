@@ -145,3 +145,43 @@ Press **Ctrl+C** in the terminal running the PHP server.
 ### Server Stop Command
 
 Press **Ctrl+C** in the terminal running the PHP server.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | N/A |
+| FR2 | N/A |
+| FR3 | N/A |
+| FR4 | N/A |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | N/A |
+| FR6 | connect to the database to execute a test query (such as SELECT VERSION()) and confirm connectivity |
+| FR7 | generate an interface to display formatted connection and test-query output |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | N/A |
+| FR9 | N/A |
+| FR10 | N/A |
+| FR11 | N/A |
+
+<!-- FR_STANDARD_END -->

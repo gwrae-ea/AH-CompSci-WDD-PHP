@@ -8,12 +8,12 @@
 </head>
 <body>
   <header>
-    <h1>Explanation: Site 23 Capstone Demo</h1>
+    <h1>Explanation: Site 23 Final Project Demo</h1>
   </header>
 
   <main>
     <h2>Lesson Focus</h2>
-    <p>This capstone site combines the practical skills from Sites 1-22 into a complete mini-application. It uses a real form flow, POST request handling, validation, data processing, and responsive output pages.</p>
+    <p>This final project site combines the practical skills from Sites 1-22 into a complete mini-application. It uses a real form flow, POST request handling, validation, data processing, and responsive output pages.</p>
 
     <h2>Complete Flow</h2>
     <div class="grid">
@@ -94,6 +94,52 @@
 
     <p><a href="index.php">Back to Site 23 index</a></p>
     <p class="no-print"><a href="../index.php">Back to main hub</a></p>
+
   </main>
+    <!-- FR_STANDARD_START -->
+    <section>
+      <h2>Functional Requirements (Standard Format)</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR1</td><td>a website with multiple pages, one of which has form elements (action, method, and name) to implement an end-to-end final-project workflow</td></tr>
+          <tr><td>FR2</td><td>a media query to provide responsive mobile and print-friendly layouts that is triggered when viewport width reaches defined breakpoints</td></tr>
+          <tr><td>FR3</td><td>use PHP to assign form variables and process form data to validate, compute, and present project outputs</td></tr>
+          <tr><td>FR4</td><td>use PHP to assign and use session variables to persist submission history, errors, and old values</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Integration</h2>
+      <p>Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.</p>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR5</td><td>N/A</td></tr>
+          <tr><td>FR6</td><td>N/A</td></tr>
+          <tr><td>FR7</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Additional Functional Requirements</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR8</td><td>validate required keyboard text inputs with length constraints</td></tr>
+          <tr><td>FR9</td><td>validate keyboard numeric/date/email inputs for format and range</td></tr>
+          <tr><td>FR10</td><td>escape user-generated output using htmlspecialchars across result pages</td></tr>
+          <tr><td>FR11</td><td>provide clear validation feedback and recovery flow after failed submission</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- FR_STANDARD_END -->
 </body>
 </html>

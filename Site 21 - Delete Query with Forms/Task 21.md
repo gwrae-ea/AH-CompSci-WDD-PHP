@@ -105,3 +105,43 @@ Then open your browser to:
 ### Server Stop Command
 
 Press **Ctrl+C** in the terminal running the PHP server.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | a website with multiple pages, one of which has form elements (action, method, and name) to capture delete criteria |
+| FR2 | N/A |
+| FR3 | use PHP to assign form variables and process form data to delete selected records safely |
+| FR4 | N/A |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | have a database table to store records that can be removed |
+| FR6 | connect to the database to execute a DELETE query from validated form input |
+| FR7 | generate an interface to receive query input values and display formatted delete result output |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | validate required keyboard identifier input before delete execution |
+| FR9 | validate keyboard confirmation input to reduce accidental deletion |
+| FR10 | display affected-row feedback for delete operations |
+| FR11 | show a warning and require explicit confirmation before destructive actions |
+
+<!-- FR_STANDARD_END -->

@@ -154,3 +154,43 @@ For database-related requirements (FR5-FR7), include a screenshot of your `.env`
 ---
 
 **Ready to move to Site 6?** Once you've completed all tests above, proceed to the next lesson.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | N/A |
+| FR2 | N/A |
+| FR3 | N/A |
+| FR4 | N/A |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | N/A |
+| FR6 | N/A |
+| FR7 | N/A |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | N/A |
+| FR9 | N/A |
+| FR10 | N/A |
+| FR11 | N/A |
+
+<!-- FR_STANDARD_END -->

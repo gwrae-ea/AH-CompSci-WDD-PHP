@@ -159,3 +159,43 @@ Then open your browser to:
 ### Server Stop Command
 
 Press **Ctrl+C** in the terminal running the PHP server.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | N/A |
+| FR2 | N/A |
+| FR3 | N/A |
+| FR4 | N/A |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | have a database table to store employee or student records used by SELECT queries |
+| FR6 | connect to the database to execute filtered and sorted SELECT queries |
+| FR7 | generate an interface to receive query filter values and display formatted table output |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | validate text filter keyboard input to allow safe characters only |
+| FR9 | validate sort/filter keyboard input against allowed options before query execution |
+| FR10 | display a formatted empty-state message when no matching rows are returned |
+| FR11 | show clear query error feedback without exposing sensitive database details |
+
+<!-- FR_STANDARD_END -->

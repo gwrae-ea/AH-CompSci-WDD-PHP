@@ -2,6 +2,12 @@
 
 Use this guide at the start of a learning topic to set up your own PHP + MySQL workspace in GitHub Codespaces.
 
+## Quick workflow guides
+
+- First-time setup: [Readme.md](Readme.md)
+- Start of each coding session: [START_OF_SESSION.md](START_OF_SESSION.md)
+- End of each coding session: [END_OF_SESSION.md](END_OF_SESSION.md)
+
 ## 1. Create your own copy on GitHub
 
 1. Open this repository on GitHub.
@@ -142,3 +148,10 @@ Then open the forwarded port URL in your browser to view your pages.
 - Site 19 task sheet: [Site 19 - Insert Query with Forms/Task 19.md](Site%2019%20-%20Insert%20Query%20with%20Forms/Task%2019.md)
 - Site 20 task sheet: [Site 20 - Update Query with Forms/Task 20.md](Site%2020%20-%20Update%20Query%20with%20Forms/Task%2020.md)
 - Site 21 task sheet: [Site 21 - Delete Query with Forms/Task 21.md](Site%2021%20-%20Delete%20Query%20with%20Forms/Task%2021.md)
+- Site 22 task sheet: [Site 22 - Session Variables/Task 22.md](Site%2022%20-%20Session%20Variables/Task%2022.md)
+- Site 23 task sheet: [Site 23 - Final Project Demo/Task 23.md](Site%2023%20-%20Final%20Project%20Demo/Task%2023.md)
+
+## 13. Final project workspace
+
+- Site 24 workspace home: [Site 24 - Final Project Workspace/index.php](Site%2024%20-%20Final%20Project%20Workspace/index.php)
+- Site 24 workspace page: [Site 24 - Final Project Workspace/workspace.php](Site%2024%20-%20Final%20Project%20Workspace/workspace.php)

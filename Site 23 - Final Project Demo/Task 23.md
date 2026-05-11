@@ -1,4 +1,4 @@
-# Task 23 - Capstone Demo Site
+# Task 23 - Final Project Demo Site
 
 ## Objective
 Build and demonstrate a complete mini-site that combines the core practical skills from Sites 1-22.
@@ -37,7 +37,7 @@ Build and demonstrate a complete mini-site that combines the core practical skil
 
 ## Run command
 ```bash
-/usr/bin/php -S 0.0.0.0:8000 -t "Site 23 - Capstone Demo"
+/usr/bin/php -S 0.0.0.0:8000 -t "Site 23 - Final Project Demo"
 ```
 
 ## Extension challenge
@@ -65,3 +65,43 @@ Create your own three-page mini workflow in this folder that follows the same st
 - Session workflow is complete (write, read, update, and reset/clear behavior).
 - UI is polished, responsive, and print-friendly with clear information hierarchy.
 - Student gives confident technical commentary that justifies design, validation, and algorithm choices.
+
+<!-- FR_STANDARD_START -->
+
+## Functional Requirements (Standard Format)
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR1 | a website with multiple pages, one of which has form elements (action, method, and name) to implement an end-to-end final-project workflow |
+| FR2 | a media query to provide responsive mobile and print-friendly layouts that is triggered when viewport width reaches defined breakpoints |
+| FR3 | use PHP to assign form variables and process form data to validate, compute, and present project outputs |
+| FR4 | use PHP to assign and use session variables to persist submission history, errors, and old values |
+
+### Integration
+
+Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR5 | N/A |
+| FR6 | N/A |
+| FR7 | N/A |
+
+### Additional Functional Requirements
+
+Identify between four and eight additional functional requirements, with a minimum of two related to validation of keyboard input where applicable to the site.
+
+The solution is required to:
+
+| ID | Requirement |
+|---|---|
+| FR8 | validate required keyboard text inputs with length constraints |
+| FR9 | validate keyboard numeric/date/email inputs for format and range |
+| FR10 | escape user-generated output using htmlspecialchars across result pages |
+| FR11 | provide clear validation feedback and recovery flow after failed submission |
+
+<!-- FR_STANDARD_END -->

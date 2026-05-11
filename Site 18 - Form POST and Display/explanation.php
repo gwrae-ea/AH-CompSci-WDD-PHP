@@ -74,6 +74,52 @@ $full_name_upper = strtoupper($full_name);</pre>
 
     <p><a href="index.php">Back to Site 18 index</a></p>
     <p class="no-print"><a href="../index.php">Back to main hub</a></p>
+
   </main>
+    <!-- FR_STANDARD_START -->
+    <section>
+      <h2>Functional Requirements (Standard Format)</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR1</td><td>a website with multiple pages, one of which has form elements (action, method, and name) to collect user input using POST</td></tr>
+          <tr><td>FR2</td><td>N/A</td></tr>
+          <tr><td>FR3</td><td>use PHP to assign form variables and process form data to display transformed string output</td></tr>
+          <tr><td>FR4</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Integration</h2>
+      <p>Complete the pre-populated functional requirements for integration to describe how they will be applied in your project.</p>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR5</td><td>N/A</td></tr>
+          <tr><td>FR6</td><td>N/A</td></tr>
+          <tr><td>FR7</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Additional Functional Requirements</h2>
+      <p>The solution is required to:</p>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FR8</td><td>validate required keyboard text inputs are not empty</td></tr>
+          <tr><td>FR9</td><td>validate keyboard text length for each required field</td></tr>
+          <tr><td>FR10</td><td>escape user-provided output using htmlspecialchars before rendering</td></tr>
+          <tr><td>FR11</td><td>display clear success/output sections for submitted values</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- FR_STANDARD_END -->
 </body>
 </html>
